@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a Sortify</title>
+    <link href="cssday/styleday.css" rel="stylesheet" id="linkcss">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <div>
+            <img class="headerlogo" src="images/logo.svg" alt="Este es el logo">
+        </div>
+        <div class="cont-derecha">
+            
+            <label class="dropdownlabel">
+                <div class="btn-theme">ELEGIR TEMA</div>
+                <input class="themeinp" type="checkbox" id="checked">
+                <ul class="dropdown-menu">
+                    <li id="dropDay">Day Mode</li>
+                    <li id="dropDark">Dark Mode</li>
+                </ul>
+            </label>
+            <p id="modoElegido"></p>
+        </div>
+    </header>
+
+    <section class="encabezado">
+        <div class="cont-encabezado">
+            <h1>BIENVENIDOS A SORTIFY</h1>
+            <p>Un sitio exclusivo para realizar sorteos. ¿Quien será el ganador?</p>
+        </div>
+    </section>
+
+    <!--COMIENZA LA FUNCIONALIDAD-->
+
+    <section class="sec-form">
+        <h1>Ingresa aquí los nombres a sortear!</h1>
+        <div class="cont-form">
+            <form id="tomadatos" action="">
+                <textarea class="textarea" name="descripcion" maxlength="" id="textarea" cols="30" rows="10" required=""></textarea>
+                <h3 class="tit-select">Elija la cantidad de ganadores:</h3>
+                <select id="selectnum" class="selected">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <button id="btn-action-sort" class="buttonsort" type="button"submit">SORTEAR</button>
+            </form>
+        </div>
+        
+        <div class="ganador">
+            <h3>Aqui aparecerá el o los ganadores:</h3>
+        </div>
+        <div id="datosIngresados">
+            
+        </div>
+    </section>
+    <section>
+        
+    </section>
+
+    <script type="text/javascript" src="js/theme.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

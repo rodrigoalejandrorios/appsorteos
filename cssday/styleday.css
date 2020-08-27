@@ -1,0 +1,249 @@
+/*$background-fondo
+$font-color
+$color-elements
+$color-extra
+$bordes-section
+$font-color-inverse
+*/
+/*$background-fondo
+$font-color
+$color-elements
+$color-extra
+$bordes-section
+$font-color-inverse
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+}
+
+*::-moz-selection {
+  color: #fff;
+  background: #5000ff;
+}
+
+*::selection {
+  color: #fff;
+  background: #5000ff;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 100px;
+  background: #fff;
+}
+
+.headerlogo {
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+}
+
+.cont-derecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cont-derecha p {
+  margin: 8px 0 0 7px;
+  color: #5000ff;
+}
+
+.btn-theme {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 20px;
+  border: 1px solid #353535;
+  color: #353535;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.themeinp {
+  display: none;
+}
+
+.dropdown-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  padding: 0 17px;
+  top: 50px;
+  background: #5000ff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.dropdown-menu li {
+  list-style: none;
+  margin: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.dropdown-menu #dropDay {
+  background: #fff;
+  color: #5000ff;
+}
+
+.themeinp + .dropdown-menu {
+  display: none;
+}
+
+.themeinp:checked + .dropdown-menu {
+  display: block;
+}
+
+.encabezado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  background-image: url(../images/bg-day.png);
+  background-position: center center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-encabezado {
+  width: 50%;
+}
+
+.cont-encabezado h1 {
+  font-size: 80px;
+  text-align: center;
+  font-weight: bolder;
+  color: #353535;
+}
+
+.cont-encabezado p {
+  margin-top: 10px;
+  font-size: 40px;
+  text-align: center;
+  color: #5000ff;
+}
+
+.sec-form {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.sec-form h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #353535;
+  margin-bottom: 50px;
+}
+
+.cont-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cont-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.textarea {
+  margin: 10px 0;
+  font-size: 20px;
+  width: 600px;
+  height: 250px;
+  border-radius: 4px;
+  border: 1px solid #353535;
+  padding: 20px;
+  resize: none;
+}
+
+.tit-select {
+  text-align: center;
+  color: #353535;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.selected {
+  height: 50px;
+  font-size: 30px;
+}
+
+.buttonsort {
+  margin-top: 30px;
+  background-color: #5000ff;
+  padding: 10px 50px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.buttonsort:hover {
+  background-color: #fff;
+  border: 1px solid #5000ff;
+  color: #5000ff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.ganador {
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+
+.ganador h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #353535;
+}
+/*# sourceMappingURL=styleday.css.map */
